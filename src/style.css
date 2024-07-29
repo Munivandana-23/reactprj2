@@ -1,0 +1,41 @@
+body{
+    background-image: url('images/d.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contanier{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+input{
+    margin-top: 20px;
+    background-color: rgba(201, 151, 175, 0.548);
+    color:aqua;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+span{
+    color: white;
+}
+button{
+    margin-top: 20px;
+    color: rgb(19, 65, 36);
+    background-color:rgb(111, 255, 0)
+}
+h1{
+    color: aqua;
+}
+/* .txt{
+    background-image: url('images/s.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+} */

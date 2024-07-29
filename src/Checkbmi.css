@@ -1,0 +1,145 @@
+
+
+.box9{
+  margin: 0;
+  padding:0;
+  font-family: 'Arial', sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?nature,fitness') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+ .box9::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  z-index: -1;
+}
+
+
+.box5 {
+  max-width: 500px;
+  width: 100%;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.9); 
+  border-radius: 15px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px); 
+  text-align: center;
+  animation: fadeIn 1s ease-out; 
+  position: relative;
+  margin: auto; 
+}
+
+.one {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #ff6f61, #d43f5a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: slideIn 1s ease-out; 
+}
+
+
+.a {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.b {
+  width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.b:focus {
+  border-color: #ff6f61;
+  box-shadow: 0 0 10px rgba(255, 111, 97, 0.4);
+  outline: none;
+  background: #fefefe;
+}
+
+
+.c {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ff6f61, #d43f5a);
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.c:hover {
+  background: linear-gradient(135deg, #d43f5a, #ff6f61);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px);
+}
+
+.c:active {
+  background: linear-gradient(135deg, #d43f5a, #ff6f61);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+
+.d {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  color: #e09797;
+  font-weight: 700;
+}
+
+
+.e {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateY(-20px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
